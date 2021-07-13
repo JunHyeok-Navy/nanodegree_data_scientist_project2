@@ -1,11 +1,4 @@
 # Disaster Response Pipeline Project
-### Table of Contents
-
-1. [Introduction](#introduction)
-2. [Descriptions](#descriptions)
-3. [Getting Started](#getting_started)
-4. [Acknowledgements](#acknowledgements)
-
 
 ## Introduction<a name="introduction"></a>
 Following a disaster, disaster response organizations typically receive millions of messages either directly or via social media. At those moments, the disaster response organizations normally lack resources to handle the vast amount of information: to filter and select the most information.  
@@ -44,7 +37,7 @@ The Project is divided in the following sections:
     ├── ETL Pipeline Preparation.ipynb
     └── ML Pipeline Preparation.ipynb
 ```
-### How To:
+### How:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -55,7 +48,7 @@ The Project is divided in the following sections:
 2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
-3. Go to http://0.0.0.0:3001/
+3. http://0.0.0.0:3001/
 
 ## Acknowledgements <a name="cknowledgements"></a>
 
@@ -70,6 +63,3 @@ Areas to further optimize in the future:
 - Improve the efficiency of the code in the ETL and ML pipeline.
 - Optimize the model to better handle imbalanced input 
 - EDA to further analyze data categories.
-
-## Contact
-[Jinchao Chen](tjuchenjinchao@gmail.com)
