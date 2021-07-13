@@ -15,28 +15,7 @@ The Project is divided in the following sections:
 - Web App: classify the real time input text messages
 
 ## Getting Started<a name="getting_started"></a>
-### Dependences
 
-### Folder Structure
-```
-├── LICENSE
-├── README.md
-├── app
-│   ├── run.py  # Flask file that runs the app
-│   └── templates
-│       ├── go.html # web page contains the classification result
-│       └── master.html # main page of web app
-├── data
-│   ├── DisasterResponse.db # database stores the processed data
-│   ├── disaster_categories.csv 
-│   ├── disaster_messages.csv
-│   └── process_data.py # scripts to clean and store the text messages
-├── models
-│   └── train_classifier.py # scripts to train the classifier 
-└── notebooks
-    ├── ETL Pipeline Preparation.ipynb
-    └── ML Pipeline Preparation.ipynb
-```
 ### How:
 1. Run the following commands in the project's root directory to set up your database and model.
 
