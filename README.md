@@ -1,7 +1,7 @@
-# Disaster Response Pipeline Project
+# Disaster Response Pipeline
 
 ## Introduction<a name="introduction"></a>
-Following a disaster, disaster response organizations typically receive millions of messages either directly or via social media. At those moments, the disaster response organizations normally lack resources to handle the vast amount of information: to filter and select the most information.  
+Because of disaster, there are not only many casualties, property damage but also problem to disaster response organization. Every year, they get a lot of messages about disaster. We can classify the kinds of these messages using NLP, Machine Learning!
 
 Within a disaster response organization, a different part of taking care of different parts of the problem: one takes care of water, another takes care of blocked roads, and another will be responsible for medical supplies. Therefore an automated workflow that efficiently processes the received messages will be beneficial to direct it to the responsible party.
 
