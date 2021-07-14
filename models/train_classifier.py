@@ -41,7 +41,7 @@ def load_data(database_filepath):
         - identify the cat columns
     """
     engine = create_engine("sqlite:///{:}".format(database_filepath))
-    df = pd.read_sql_table(table_name="DisasterResponse", con=engine)
+    df = pd.read_sql_table(table_name="data/DisasterResponse", con=engine)
     X = df["message"].values
 
     cat_names = df.columns[4::].values
